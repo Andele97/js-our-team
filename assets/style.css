@@ -1,0 +1,7 @@
+body {
+  background-image: linear-gradient(to right top, #272932, #4D7EA8, #828489, #9E90A2, #B6C2D9);;
+}
+
+.container {
+  height: 100vh;
+}
