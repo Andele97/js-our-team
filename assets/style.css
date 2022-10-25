@@ -2,6 +2,27 @@ body {
   background-image: linear-gradient(to right top, #272932, #4D7EA8, #828489, #9E90A2, #B6C2D9);;
 }
 
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 .container {
   height: 100vh;
+}
+
+.ap-box {
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+.ap-box .image {
+  height: 400px;
+  width: 100%;
 }
