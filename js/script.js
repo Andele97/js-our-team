@@ -35,4 +35,23 @@ const team = [
     professione: "Graphic Designer",
     immagine: "barbara-ramos-graphic-designer.jpg"
 }
-]
+];
+
+for(let teams of team){
+
+  let box = `
+      <div class="col-3">
+        <div class="ap-box">
+          <div class="image">
+            <img src="${teams.immagine}" alt="foto">
+          </div>
+          <div class="nome text-center mt-3">
+            ${teams.nome} ${teams.cognome}
+          </div>
+          <div class="professione text-center">
+            ${teams.professione}
+          </div>
+        </div>
+      </div>`;
+      console.log(teams);
+}
