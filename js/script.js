@@ -42,15 +42,15 @@ const team = [
 for(let teams of team){
 
   let box = `
-      <div class="col-5">
-        <div class="ap-box me-5">
+      <div class="col-4 d-flex justify-content-center ">
+        <div class="ap-box">
           <div class="image">
             <img src="${teams.immagine}" alt="foto">
           </div>
-          <div class="nome text-center mt-3">
+          <div class="nome text-center mt-3 fw-bold">
             ${teams.nome} ${teams.cognome}
           </div>
-          <div class="professione text-center">
+          <div class="professione text-center mt-1">
             ${teams.professione}
           </div>
         </div>
